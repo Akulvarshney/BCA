@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BCA",
-    "slug": "BCA",
+    "name": "BCA_Connect",
+    "slug": "BCA_Connect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.allenv213.BCA_Connect"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "639e2bab-bb99-43e3-b496-5a8a0b432d3f"
+      }
     }
   }
 }
