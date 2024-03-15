@@ -2,24 +2,34 @@
   "expo": {
     "name": "BCA Connect",
     "slug": "BCA_Connect",
-    "version": "7.0.1",
+    "version": "8.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "expo": {
+      "android": {
+        "package": "com.bharatCertis.BCA_Connect",
+        "permissions": [],
+        "versionCode": 3
+      }
+    },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "BCA_Connect"
     },
     "android": {
-      "package": "com.bharatCertis.BCA_Connect"
+      "package": "com.bharatCertis.BCA_Connect",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "639e2bab-bb99-43e3-b496-5a8a0b432d3f"
-      }
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/48b6a0ce-1aaa-486a-a3d6-577baeb258f0"
     }
   }
 }
